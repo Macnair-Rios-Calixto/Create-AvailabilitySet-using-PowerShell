@@ -16,7 +16,7 @@ New-AzAvailabilitySet `
 $cred = Get-Credential
 
 #Create Virtual Machines
-for ($i=1; $i -le 2; $i++)
+for ($i=1; $i -le 4; $i++)
 {
     New-AzVm `
         -ResourceGroupName "RG-AVSET" `
